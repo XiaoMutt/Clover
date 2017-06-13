@@ -1,0 +1,94 @@
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * General page setup
+*/
+
+#menubar{
+    position: relative;
+    height: 50px;
+    top:0;
+    left:0;
+    width:100%;
+}
+#menu {
+    margin: 0;
+    padding:0;
+    position: fixed;             
+    float:left;
+    overflow: visible;
+    z-index: 2;     
+}
+#menuright{
+    margin: 0;
+    padding:0;
+    float:left;
+    overflow: visible;    
+    width: 100%;
+    height: 50px;
+    overflow: auto;
+    position :fixed;
+    background-color: #000000;
+    z-index: 1;
+}
+
+#menu ul{
+    margin:0;
+    padding:0;
+}
+
+#menu li{
+    height:50px;
+    float:left;
+    color:#191919;
+    text-align:center;
+    font-weight:bold;
+    overflow:hidden;
+}	
+#menu .subtext{
+    padding-top:20px;
+    font-weight:normal;
+}
+
+#menu .cloversubtext{
+    padding-top:40px;
+    font-weight:normal;
+    color: white;
+}
+
+#menu a{
+    color:#FFF;
+    text-decoration:none;
+}
+
+#menu .red{width: 100px;background:#ff0000 url('images/red-item-bg.png') top left no-repeat;}
+#menu .orange{width: 100px;background:#ffa200 url('images/orange-item-bg.png') top left no-repeat;}
+#menu .yellow{width: 100px;background:#cee100 url('images/yellow-item-bg.png') top left no-repeat;}
+#menu .green{width: 100px;background:#00af00 url('images/green-item-bg.png') top left no-repeat;}
+#menu .cyan {width: 100px;background:#00ccff url('images/cyan-item-bg.png') top left no-repeat;}
+#menu .blue{width: 100px;background:#0000ff url('images/blue-item-bg.png') top left no-repeat;}
+#menu .purple{width: 100px;background:#9600ff url('images/purple-item-bg.png') top left no-repeat;}
+#menu .pink{ width: auto; background:#ff006c url('images/pink-item-bg.png') top right no-repeat;}
+#menu .clover{width: 150px; background: #443f3b url('images/clover-item-bg.png') top left no-repeat;}
+
+
+body{
+    font: 80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 0px;
+    background-image:url('images/background.png');
+    background-repeat:repeat; 
+    z-index: 1;
+
+}
+
+body #container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    z-index: 2;
+}
+#messenger_dialog {width: 100%; background: yellow; height: 25px; position:fixed;bottom:60px;padding-top: 5px; text-align:center;z-index: 2; margin-left: auto; margin-right: auto}
+
+p{
+    padding:0px 0px;
+}
